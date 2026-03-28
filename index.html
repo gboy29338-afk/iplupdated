@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPL Premium Tips</title>
+
+<style>
+body {
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:#fff;
+    text-align:center;
+}
+
+.container {
+    padding:20px;
+}
+
+h1 {
+    font-size:28px;
+    color:#FFD700;
+    margin-top:10px;
+}
+
+.tagline {
+    font-size:16px;
+    color:#ccc;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    padding:15px;
+    border-radius:15px;
+    margin:15px;
+    box-shadow:0 0 20px rgba(255,215,0,0.2);
+}
+
+.btn {
+    display:block;
+    margin:15px auto;
+    padding:12px;
+    width:80%;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.buy {
+    background:#FFD700;
+    color:#000;
+}
+
+.join {
+    background:#25D366;
+    color:#fff;
+}
+
+.fake {
+    font-size:14px;
+    color:#00ffcc;
+    margin-top:10px;
+}
+
+.urgency {
+    color:#ff4444;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.win {
+    color:#00ff99;
+    font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🏏 IPL VIP PREMIUM TIPS</h1>
+<p class="tagline">India's #1 Trusted Prediction System</p>
+
+<div class="card">
+    <p class="win">🔥 95% WIN RATE</p>
+    <p>Accurate Teams | High Profit | Daily Updates</p>
+</div>
+
+<div class="card">
+    <p>💬 Live Telegram Support</p>
+    <p>📊 Expert Analysis</p>
+    <p>⚡ Fast Winning Signals</p>
+</div>
+
+<p class="urgency">⏳ Only 23 Seats Left</p>
+
+<a href="https://ibb.co/9HTMgXpp" class="btn buy">💰 Pay Now ₹499</a>
+<a href="https://shorturl.at/PJ1qu" class="btn join">📲 Join Telegram</a>
+
+<p class="fake" id="fake">Someone just joined VIP 🎉</p>
+
+</div>
+
+<script>
+
+let names = ["Rahul","Amit","Vikash","Rohit","Suresh","Ankit","Karan","Manish","Ajay","Deepak","Sonu"];
+
+setInterval(()=>{
+    let random = names[Math.floor(Math.random()*names.length)];
+    document.getElementById("fake").innerHTML =
+    random + " just joined VIP 🎉";
+},3000);
+
+</script>
+
+</body>
+</html>
